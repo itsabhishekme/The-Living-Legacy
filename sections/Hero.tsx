@@ -157,23 +157,6 @@ export default function Hero() {
 
             {/* Floating Cards */}
             <motion.div
-              animate={{ y: [-10, 10, -10] }}
-              transition={{
-                duration: 5,
-                repeat: Infinity,
-              }}
-              className="absolute -left-8 top-10 rounded-2xl bg-white p-5 shadow-xl"
-            >
-              <p className="text-sm font-semibold text-gray-500">
-                Heritage Preserved
-              </p>
-
-              <h3 className="mt-2 text-3xl font-black text-amber-700">
-                100%
-              </h3>
-            </motion.div>
-
-            <motion.div
               animate={{ y: [10, -10, 10] }}
               transition={{
                 duration: 5,
