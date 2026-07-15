@@ -27,7 +27,7 @@ const socialLinks = [
     href: "#",
     icon: Globe,
   },
- 
+
 ];
 
 export default function Footer() {
@@ -75,18 +75,131 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Mission */}
+          {/* Our Initiatives */}
           <div>
             <h3 className="mb-5 text-lg font-semibold text-white">
-              Our Mission
+              Our Initiatives
             </h3>
 
-            <ul className="space-y-3 text-sm leading-7">
-              <li>✓ Preserve Traditional Recipes</li>
-              <li>✓ Document Human Stories</li>
-              <li>✓ Celebrate Indian Culture</li>
-              <li>✓ Support Community Initiatives</li>
-              <li>✓ Inspire Compassion</li>
+            <ul className="space-y-4 text-sm">
+
+              <li>
+                <a
+                  href="/taste-of-traditions"
+                  className="group block transition-all duration-300 hover:translate-x-1"
+                >
+                  <span className="font-medium text-white group-hover:text-amber-400">
+                    🍛 Taste Of Traditions
+                  </span>
+
+                  <p className="mt-1 text-xs leading-5 text-stone-400">
+                    Reviving India's Forgotten Flavors through emotional homemade
+                    recipes, authentic spices, regional cuisines, and timeless Indian
+                    traditions.
+                  </p>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="/timeless-tadka"
+                  className="group block transition-all duration-300 hover:translate-x-1"
+                >
+                  <span className="font-medium text-white group-hover:text-amber-400">
+                    🌿 Timeless Tadka
+                  </span>
+
+                  <p className="mt-1 text-xs leading-5 text-stone-400">
+                    Preserving authentic regional recipes and India's culinary heritage.
+                  </p>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="/whisper-with-vihaan"
+                  className="group block transition-all duration-300 hover:translate-x-1"
+                >
+                  <span className="font-medium text-white group-hover:text-amber-400">
+                    🎬 Whisper with Vihaan
+                  </span>
+
+                  <p className="mt-1 text-xs leading-5 text-stone-400">
+                    Documentary films and powerful human stories that inspire compassion
+                    and meaningful change.
+                  </p>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="/one-meal-one-hope"
+                  className="group block transition-all duration-300 hover:translate-x-1"
+                >
+                  <span className="font-medium text-white group-hover:text-amber-400">
+                    ❤️ One Meal • One Hope
+                  </span>
+
+                  <p className="mt-1 text-xs leading-5 text-stone-400">
+                    Ending hunger through compassion, community support, and action.
+                  </p>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+
+          {/* Get Involved */}
+          <div>
+            <h3 className="mb-5 text-lg font-semibold text-white">
+              Get Involved
+            </h3>
+
+            <ul className="space-y-3 text-sm">
+              <li>
+                <a
+                  href="/volunteer"
+                  className="transition hover:text-amber-400"
+                >
+                  Become a Volunteer
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="/donate"
+                  className="transition hover:text-amber-400"
+                >
+                  Donate a Meal
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="/partner"
+                  className="transition hover:text-amber-400"
+                >
+                  Partner With Us
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="/share-story"
+                  className="transition hover:text-amber-400"
+                >
+                  Share Your Story
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="/newsletter"
+                  className="transition hover:text-amber-400"
+                >
+                  Newsletter
+                </a>
+              </li>
             </ul>
           </div>
 
