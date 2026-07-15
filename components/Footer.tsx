@@ -158,7 +158,7 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               <li>
                 <a
-                  href="/become-a-volunteer"
+                  href="/get-involved/become-a-volunteer"
                   className="transition hover:text-amber-400"
                 >
                   Become a Volunteer
@@ -167,7 +167,7 @@ export default function Footer() {
 
               <li>
                 <a
-                  href="/donate-a-meal"
+                  href="/get-involved/donate-a-meal"
                   className="transition hover:text-amber-400"
                 >
                   Donate a Meal
@@ -176,7 +176,7 @@ export default function Footer() {
 
               <li>
                 <a
-                  href="/partner-with-us"
+                  href="/get-involved/partner-with-us"
                   className="transition hover:text-amber-400"
                 >
                   Partner With Us
@@ -185,7 +185,7 @@ export default function Footer() {
 
               <li>
                 <a
-                  href="/share-your-story"
+                  href="/get-involved/share-your-story"
                   className="transition hover:text-amber-400"
                 >
                   Share Your Story
@@ -194,7 +194,7 @@ export default function Footer() {
 
               <li>
                 <a
-                  href="/newsletter"
+                  href="/get-involved/newsletter"
                   className="transition hover:text-amber-400"
                 >
                   Newsletter
