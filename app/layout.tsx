@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import "./globals.css";
 
 const inter = Inter({
@@ -230,10 +232,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body
-        className={`${inter.variable} ${playfair.variable} bg-stone-50 text-stone-900 antialiased`}
-      >
-        {children}
+      <body className="min-h-screen bg-stone-50 text-stone-900 antialiased">
+        <Navbar />
+
+        <main>{children}</main>
+
+        <Footer />
       </body>
     </html>
   );

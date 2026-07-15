@@ -1,5 +1,3 @@
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 
 import Hero from "@/sections/Hero";
 import About from "@/sections/About";
@@ -13,8 +11,6 @@ import CTA from "@/sections/CTA";
 export default function HomePage() {
   return (
     <main className="min-h-screen overflow-x-hidden bg-stone-50 text-stone-900">
-      {/* Navigation */}
-      <Navbar />
 
       {/* Hero */}
       <Hero />
@@ -39,9 +35,7 @@ export default function HomePage() {
 
       {/* Call To Action */}
       <CTA />
-
-      {/* Footer */}
-      <Footer />
+      
     </main>
   );
 }
