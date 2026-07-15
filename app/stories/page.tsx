@@ -8,21 +8,13 @@ export const metadata = {
 };
 
 const stories = [
-  {
-    title: "Before Her Name Existed",
-    description:
-      "A documentary exploring identity, longing, and the unseen paths before destiny introduces itself.",
-  },
+
   {
     title: "Whisper with Vihaan",
     description:
       "Stories that transform compassion into action and hope.",
   },
-  {
-    title: "Soulfire Chronicles",
-    description:
-      "Powerful documentaries about resilience, purpose, and the human spirit.",
-  },
+  
 ];
 
 export default function StoriesPage() {
