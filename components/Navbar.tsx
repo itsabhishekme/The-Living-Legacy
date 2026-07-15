@@ -5,7 +5,7 @@ import { Menu, X, PlayCircle } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const navigation = [
-  { name: "Home", href: "#home" },
+  { name: "Home", href: "/" },
   { name: "Heritage", href: "#heritage" },
   { name: "Stories", href: "#stories" },
   { name: "Humanity", href: "#humanity" },
