@@ -90,6 +90,7 @@ const stories = [
       "Every photograph, recipe, voice, and documentary becomes a timeless archive—ensuring the memories, traditions, and stories of today remain alive for generations to come.",
   },
 ];
+
 export default function StoriesPage() {
   return (
     <main className="bg-stone-50 text-stone-900">
