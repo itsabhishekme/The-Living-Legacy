@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, BookOpen, Landmark, ScrollText, Globe2, Sparkles, Leaf } from "lucide-react";
+import { ArrowRight, BookOpen, Landmark, ScrollText, Globe2, Sparkles, Leaf, TreePine, UtensilsCrossed, ChefHat, Camera, Film, HeartHandshake, HandHeart, Users, Mountain, Music4 } from "lucide-react";
 
 export const metadata = {
   title: "Heritage | The Living Legacy",
@@ -12,25 +12,97 @@ const pillars = [
     icon: BookOpen,
     title: "Cultural Traditions",
     description:
-      "Celebrating festivals, customs, rituals, and values passed from one generation to the next.",
+      "Celebrating India's diverse festivals, customs, rituals, folklore, family values, and spiritual practices that have been lovingly passed from one generation to another, preserving the identity of communities across the country.",
   },
   {
     icon: ScrollText,
     title: "Oral Histories",
     description:
-      "Documenting stories that preserve identity, memory, and community wisdom.",
+      "Documenting authentic human experiences, personal memories, family narratives, forgotten legends, and community wisdom before they disappear, ensuring that every voice becomes a permanent part of our collective history.",
   },
   {
     icon: Leaf,
     title: "Food Heritage",
     description:
-      "Protecting authentic recipes, regional cuisines, and traditional cooking methods.",
+      "Protecting authentic homemade recipes, regional cuisines, traditional cooking techniques, handmade spice blends, seasonal ingredients, and culinary traditions that define India's rich and diverse food culture.",
   },
   {
     icon: Landmark,
     title: "Living Legacy",
     description:
-      "Connecting people with the traditions that continue to shape India's future.",
+      "Connecting generations through meaningful stories, heritage, traditions, and shared experiences that continue to inspire identity, belonging, and cultural continuity in a rapidly changing world.",
+  },
+  {
+    icon: UtensilsCrossed,
+    title: "Traditional Recipes",
+    description:
+      "Reviving forgotten family recipes, village delicacies, festive dishes, and regional specialties that carry generations of memories, emotions, and authentic flavors from Indian kitchens.",
+  },
+  {
+    icon: ChefHat,
+    title: "Authentic Cooking",
+    description:
+      "Preserving traditional cooking methods including clay-pot cooking, wood-fired kitchens, slow cooking, hand-ground spices, and techniques that have shaped Indian cuisine for centuries.",
+  },
+  {
+    icon: Film,
+    title: "Documentary Storytelling",
+    description:
+      "Creating cinematic documentaries that capture extraordinary human journeys, untold stories, cultural heritage, social impact, and the resilience of communities across India.",
+  },
+  {
+    icon: Camera,
+    title: "Visual Archive",
+    description:
+      "Building a timeless digital collection of photographs, films, interviews, traditions, festivals, recipes, and cultural moments for future generations to explore and learn from.",
+  },
+  {
+    icon: HeartHandshake,
+    title: "Community Impact",
+    description:
+      "Empowering individuals through compassion, volunteerism, education, collaboration, and community-driven initiatives that encourage meaningful social change and collective responsibility.",
+  },
+  {
+    icon: HandHeart,
+    title: "One Meal • One Hope",
+    description:
+      "Supporting hunger relief through food drives, community kitchens, volunteer programs, and partnerships that ensure every individual has access to at least one nutritious meal every day.",
+  },
+  {
+    icon: Users,
+    title: "People & Communities",
+    description:
+      "Celebrating local communities, indigenous cultures, artisans, farmers, home cooks, storytellers, and changemakers whose knowledge and traditions form the foundation of India's living heritage.",
+  },
+  {
+    icon: Globe2,
+    title: "Heritage Preservation",
+    description:
+      "Using technology, storytelling, education, and creative media to preserve India's tangible and intangible heritage while making it accessible to audiences around the world.",
+  },
+  {
+    icon: Sparkles,
+    title: "Inspiring Future Generations",
+    description:
+      "Encouraging young people to embrace their roots, preserve family traditions, appreciate cultural diversity, and become responsible custodians of India's living legacy.",
+  },
+  {
+    icon: Mountain,
+    title: "Regional Diversity",
+    description:
+      "Exploring the unique traditions, languages, architecture, food, crafts, music, and lifestyles that make every region of India culturally distinct and historically significant.",
+  },
+  {
+    icon: Music4,
+    title: "Arts & Folk Culture",
+    description:
+      "Preserving folk music, dance, storytelling, theatre, traditional craftsmanship, and artistic expressions that have enriched Indian civilization for centuries.",
+  },
+  {
+    icon: TreePine,
+    title: "Nature & Sustainability",
+    description:
+      "Promoting sustainable living inspired by traditional wisdom, seasonal agriculture, indigenous knowledge, ecological balance, and harmonious relationships between people and nature.",
   },
 ];
 
