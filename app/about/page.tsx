@@ -12,6 +12,7 @@ import {
   HandHeart,
   Target,
   Eye,
+  Archive,
 } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -48,6 +49,13 @@ const pillars = [
     description:
       "A mission dedicated to ending hunger through compassion, community, and collective action.",
     href: "/one-meal-one-hope",
+  },
+  {
+    icon: Archive,
+    title: "The Memory Project",
+    description:
+      "Preserving personal memories, family histories, oral traditions, and untold human stories to build a living archive for future generations.",
+    href: "/the-memory-project",
   },
 ];
 
@@ -146,7 +154,7 @@ export default function AboutPage() {
             </span>
 
             <h2 className="mt-4 text-4xl font-bold">
-              Four Ways We Create Impact
+              Five Ways We Create Impact
             </h2>
           </div>
 
