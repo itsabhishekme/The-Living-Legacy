@@ -86,7 +86,6 @@ export default function Footer() {
             </h3>
 
             <ul className="space-y-4 text-sm">
-
               <li>
                 <a
                   href="/taste-of-traditions"
@@ -97,9 +96,8 @@ export default function Footer() {
                   </span>
 
                   <p className="mt-1 text-xs leading-5 text-stone-400">
-                    Reviving India's Forgotten Flavors through emotional homemade
-                    recipes, authentic spices, regional cuisines, and timeless Indian
-                    traditions.
+                    Reviving India's forgotten flavors through emotional homemade recipes,
+                    authentic spices, regional cuisines, and timeless Indian traditions.
                   </p>
                 </a>
               </li>
@@ -130,7 +128,7 @@ export default function Footer() {
 
                   <p className="mt-1 text-xs leading-5 text-stone-400">
                     Documentary films and powerful human stories that inspire compassion
-                    and meaningful change.
+                    and meaningful social change.
                   </p>
                 </a>
               </li>
@@ -150,6 +148,22 @@ export default function Footer() {
                 </a>
               </li>
 
+              <li>
+                <a
+                  href="/the-memory-project"
+                  className="group block transition-all duration-300 hover:translate-x-1"
+                >
+                  <span className="font-medium text-white group-hover:text-amber-400">
+                    📖 The Memory Project
+                  </span>
+
+                  <p className="mt-1 text-xs leading-5 text-stone-400">
+                    Preserving family histories, oral traditions, personal memories,
+                    photographs, letters, and untold human stories to create a living
+                    archive for future generations.
+                  </p>
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -377,52 +391,52 @@ export default function Footer() {
 
               </div>
 
+            </div>
+
+            {/* Quote */}
+
+            <div className="mt-10 rounded-2xl border border-amber-500/20 bg-amber-500/10 p-6">
+
+              <p className="text-lg italic leading-8 text-stone-200">
+                "More Than Recipes.
+                <br />
+                A Living Legacy."
+              </p>
+
+              <p className="mt-4 text-sm leading-7 text-stone-400">
+                Together we preserve traditions, document human stories,
+                celebrate culture, and inspire compassion—one meal,
+                one story, and one act of kindness at a time.
+              </p>
+
+            </div>
+
           </div>
+        </div>
 
-          {/* Quote */}
+        {/* Divider */}
+        <div className="my-10 border-t border-stone-800" />
 
-          <div className="mt-10 rounded-2xl border border-amber-500/20 bg-amber-500/10 p-6">
+        {/* Bottom */}
+        <div className="flex flex-col items-center justify-between gap-6 text-sm md:flex-row">
+          <p>
+            © {new Date().getFullYear()}{" "}
+            <span className="font-semibold text-white">
+              The Living Legacy
+            </span>
+            . All Rights Reserved.
+          </p>
 
-            <p className="text-lg italic leading-8 text-stone-200">
-              "More Than Recipes.
-              <br />
-              A Living Legacy."
-            </p>
-
-            <p className="mt-4 text-sm leading-7 text-stone-400">
-              Together we preserve traditions, document human stories,
-              celebrate culture, and inspire compassion—one meal,
-              one story, and one act of kindness at a time.
-            </p>
-
-          </div>
-
+          <p className="flex items-center gap-2 text-stone-400">
+            Crafted with
+            <Heart
+              size={16}
+              className="fill-red-500 text-red-500"
+            />
+            to preserve stories, traditions & humanity.
+          </p>
         </div>
       </div>
-
-      {/* Divider */}
-      <div className="my-10 border-t border-stone-800" />
-
-      {/* Bottom */}
-      <div className="flex flex-col items-center justify-between gap-6 text-sm md:flex-row">
-        <p>
-          © {new Date().getFullYear()}{" "}
-          <span className="font-semibold text-white">
-            The Living Legacy
-          </span>
-          . All Rights Reserved.
-        </p>
-
-        <p className="flex items-center gap-2 text-stone-400">
-          Crafted with
-          <Heart
-            size={16}
-            className="fill-red-500 text-red-500"
-          />
-          to preserve stories, traditions & humanity.
-        </p>
-      </div>
-    </div>
     </footer >
   );
 }
