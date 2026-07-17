@@ -251,7 +251,7 @@ export default function Footer() {
                   </Link>
 
                   <Link
-                    href="/get-involved"
+                    href="/mission"
                     className="rounded-full border border-stone-700 px-8 py-4 font-semibold text-white transition-all duration-300 hover:border-amber-500 hover:bg-amber-500/10"
                   >
                     Join Our Mission
